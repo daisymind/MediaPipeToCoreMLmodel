@@ -211,4 +211,4 @@ coremlc: error: compiler error:  Espresso exception: "Invalid blob shape": gener
 I don't know how to resolve this yet.
 
 ---
-Can anyone please give me some tips on how to solve this problem?
+Can anyone please give me some tips on how to solve this CoreML compile-error problem?
