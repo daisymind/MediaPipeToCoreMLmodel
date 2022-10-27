@@ -14,11 +14,11 @@ You can get 'tflite' model from [Google MediaPipe](https://google.github.io/medi
 You will probably find several conversion methods from Net, but we cannot find a way to convert directly to mlmodel.
 
 The major conversion methods found are considered as follows.
-- a) Using TensorFlowLitePod with [CocoaPods](https://cocoapods.org), this method is no mlmodel but activate tflite model on iOS.
-- b) Using [TFCoreML](https://github.com/tf-coreml/tf-coreml), Unclear if tflite model can be converted.
-- c) First, convert tflite to protbuf,pb using Tensorflow, then convert pb to mlmodel using Apple coremltools.
+- a) First, convert tflite to protbuf,pb using Tensorflow, then convert pb to mlmodel using Apple coremltools.
+- b) Using TensorFlowLitePod with [CocoaPods](https://cocoapods.org), this method is no mlmodel but activate tflite model on iOS.
+- c) Using [TFCoreML](https://github.com/tf-coreml/tf-coreml), Unclear if tflite model can be converted.
 
-For us, Method 'c)' seems like a good way to go.
+For us, Method 'a)' seems like a good way to go.
 And I found a conversion python code that looks good.
 
 Ready for conversion:
