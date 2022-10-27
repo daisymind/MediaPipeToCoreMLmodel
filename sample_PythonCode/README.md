@@ -5,16 +5,16 @@
 
 ##### Sample code:
 - **toFrozen_model.py**
- - convert tensorflow model to protbuf,pb
+   - convert tensorflow model to protbuf,pb
 - **check_ioFeatures.py**
- - check type of input/output for mlmodel
+   - check type of input/output for mlmodel
 - **convert_inputType.py**
- - convert input type of multiArray to image with coremltools
+   - convert input type of multiArray to image with coremltools
 
 ##### Model files:
 - **selfie_segmentation.tflite**
- - TFlite model from [Google MediaPipe](https://google.github.io/mediapipe/)
+   - TFlite model from [Google MediaPipe](https://google.github.io/mediapipe/)
 - **model_coreml_float32.mlmodel**
- - mlmodel file from [GitHub PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo)
+   - mlmodel file from [GitHub PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo)
 - **selfie_segmentation.mlmodel**
- - mlmodel file converted by convert_inputType.py
+   - mlmodel file converted by convert_inputType.py
